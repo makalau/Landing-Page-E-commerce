@@ -1,1 +1,1 @@
-# Landing-Page-E-commerce
+# Projeto Landing Page E-commerce restaurante.
