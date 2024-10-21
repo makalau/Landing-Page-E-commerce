@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="shortcut icon" href="./images/favicon/favicon-32x32.png" type="image/x-icon">
     <title>BrazucasFoods</title>
 </head>
 <body>
@@ -13,18 +14,33 @@
                 <img src="images/logo-removebg-preview.png" alt="logo">
             </div>
             <ul>
-                <li><a href="#" class="active"><i class="bi bi-house-fill"></i>Início</a></li>
-                <li><a href="#"><i class="bi bi-book-fill"></i>Cardápio</a></li>
-                <li><a href="#"><i class="bi bi-telephone-fill"></i>Contato</a></li>
-                <li><a href="#"><i class="bi bi-people-fill"></i>QuemSomos</a></li>
-                <li><a href="#"><i class="bi bi-geo-alt-fill"></i>Endereço</a></li>
+                <div class="icons-menu" id="active">
+                    <i class="bi bi-house-fill"></i>
+                    <li><a href="#">Início</a></li>
+                </div>
+                <div class="icons-menu">
+                    <i class="bi bi-book-fill"></i>
+                    <li><a href="#">Cardápio</a></li>
+                </div>
+                <div class="icons-menu">
+                    <i class="bi bi-telephone-fill"></i>
+                    <li><a href="#"></i>Contato</a></li>
+                </div>
+                <div class="icons-menu">
+                    <i class="bi bi-people-fill"></i>
+                    <li><a href="#">QuemSomos</a></li>
+                </div>
+                <div class="icons-menu">
+                    <i class="bi bi-geo-alt-fill"></i>
+                    <li><a href="#">Endereço</a></li>
+                </div>
             </ul>
         </nav>
     </header>
     <main class="principal">
         <section id="search">
-            <div class="div-telefone">
-                <img src="images/telephone2.png" alt="" class="telefone">
+            <div class="div-comida">
+                <img src="images/comidaFogo.png" alt="" class="comida">
             </div>
             <div class="search-div">
                 <i class="bi bi-search"></i><input type="text">
@@ -39,8 +55,18 @@
             <h1>Aproveite as melhores promoções!</h1>
             <h2>Pratos imperdíveis - A La Carte e Prato feito.</h2>
             <h3>Promoções de self-service R$40,00</h3>
-            <div id="div-celular">    
-                <img src="images/celular2.png" alt="">
+            <div class="images-banner">
+                <div class="franquias">
+                    <div class="franquias-img">
+                        <img src="images/ifood.png" alt="">
+                    </div>
+                    <div class="franquias-img">
+                        <img src="images/pngwing.com.png" alt="">
+                    </div>
+                </div>
+                <div id="div-celular">    
+                    <img src="images/celular2.png" alt="">
+                </div>
             </div>
         </section>
     </main>
