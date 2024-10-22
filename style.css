@@ -89,13 +89,14 @@ body{
     height: 50px;
     padding: 0px 30px;
     background-color: none;
+    overflow: hidden;
 }
 
 /* ----------- SEARCH ------------- */
 
 .principal #search{
     width: 100%;
-    height: 100px;
+    height: 60px;
     background-color: rgb(0, 0, 0);
     display: flex;
     align-items: center;
@@ -109,6 +110,7 @@ body{
     outline: 0;
     border: 0.5px solid #fff;
     border-radius: 0 4px 4px 0;
+    padding-left: 20px;
 }
 
 #search .search-div{
@@ -258,9 +260,9 @@ body{
 
 .content{
     width: 100%;
-    height: 110vh;
+    height: 660px;
     display: flex;
-    background-color: #fff;
+    background-color: #222;
 }
 
 .text-content{
@@ -311,6 +313,50 @@ body{
 }
 
 .images-content{
+    background-color: #000;
     width: 50%;
-    background-color: #fff;
+    background-image: url("./images/content/brazucasfoods.png");
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.whatsapp{
+    bottom: 0;
+    right: 0;
+    position: fixed;
+    float: right;
+    z-index: 9999;
+    font-size: 50px;
+    color: #fff;
+    background-color: green;
+    border-radius: 50%;
+    padding: 5px;
+    margin-right: 10px;
+}
+
+.rodape{
+    width: 100%;
+    background-color: #000;
+    font-family:"Arial", "sans-serif";
+    color: #fff;
+}
+
+.rodape .div-logo{
+    width: 120px;
+    overflow: hidden;
+}
+
+.rodape .div-logo img{
+    width: 100%;
+    height: auto;
+}
+
+.rodape .col{
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.rodape .line{
+    font-weight: 400; 
 }
