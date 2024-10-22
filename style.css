@@ -322,6 +322,7 @@ body{
 }
 
 .whatsapp{
+    width: 70px;
     bottom: 0;
     right: 0;
     position: fixed;
@@ -329,10 +330,6 @@ body{
     z-index: 9999;
     font-size: 50px;
     color: #fff;
-    background-color: green;
-    border-radius: 50%;
-    padding: 5px;
-    margin-right: 10px;
 }
 
 .rodape{
@@ -358,5 +355,74 @@ body{
 }
 
 .rodape .line{
-    font-weight: 400; 
+    font-weight: 400;
+    color: #fff;
+    font-size: 15px;
+}
+
+.flex-column{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.flex-row{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 20px;
+}
+
+.flex-row-no-spacing{
+    display: flex;
+}
+
+.div-rodape li{
+    list-style-type: none;
+}
+.div-rodape a{
+    text-decoration: none;
+}
+
+
+.copy{
+    background-image: linear-gradient(#f1e101,#f1b901, #f17501);
+    color: #000;
+    font-weight: 600;
+    padding: 10px 0px;
+    text-align: center;
+}
+
+.media-icon{
+    width: 30px;
+    height: 35px;
+    margin-left: 5px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.social-media img{
+    width: 100%;
+    height: auto;
+}
+
+/* ------------------ APPS --------------- */
+
+.div-apps{
+    height: 50px;
+}
+.div-image-app{
+    width: 150px;
+    height: 150px;
+    cursor: pointer;
+}
+
+.div-apps img{
+    width: 100%;
+    height: auto;
+}
+
+.div-payments{
+    background-color: #fff;
+    border-radius: 4px;
+    padding: 4px;
 }
